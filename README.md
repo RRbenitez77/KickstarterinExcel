@@ -3,29 +3,14 @@
 
 ![Kickstarter Table](Images/FullTable.png)
 
-Using the Excel table provided, modify and analyze the data of 4,000 past Kickstarter projects as you attempt to uncover some market trends.
+Excel was the tool used in this project where 4,000 Kickstarter projects that needed to be cleaned and narrowed down.Conditional formated cells in the 'State' column with identifiedd colors associated with Green for "Success or Red for "Failed" or canceled and currently "Live" campaign.The Excel spread sheet was extended to include another column 'percent funded' with a three-color scale from "red,"green" and "blue" additional Columns 'Average donation',sub-category' were added as well. Created a new sheet with stacked column piviot table to display the successful campaigns.
 
-* Use conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
 
-  * Create a new column O called `Percent Funded` that uses a formula to uncover how much money a campaign made to reach its initial goal.
 
-* Use conditional formatting to fill each cell in the `Percent Funded` column using a three-color scale. The scale should start at 0 and be a dark shade of red, transitioning to green at 100, and blue at 200.
 
-  * Create a new column P called `Average Donation` that uses a formula to uncover how much each backer for the project paid on average.
-
-  * Create two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
 
   ![Category Stats](Images/CategoryStats.png)
 
-  * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
-
-  * Create a stacked column pivot chart that can be filtered by country based on the table you have created.
-
-  ![Subcategory Stats](Images/SubcategoryStats.png)
-
-  * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
-
-  * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
 
 * The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Fortunately for us, [there is a formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) that can be used to convert these timestamps to a normal date.
 

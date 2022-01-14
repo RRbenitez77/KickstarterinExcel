@@ -139,5 +139,16 @@ Students who are marked as employer-ready gain access to our employer referral p
   - clean code
 
 - - -
+Given the provided data, what are the three conclusions we can draw from the Kickstarter Campaigns?
 
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+A: Successful campaigns significantly decline during Nov/Dec possibly attributed to Holliday spending. The successful campaigns dip past failed campaigns.
+
+
+What are the limitations of the Dataset?
+
+A: Not much is known about the relationship between backers and campaigns this could help potentially highlight if campaigns are being self-funded to start with to get momentum, then they are backed by others that have interest thereafter.
+
+What are some other possible tables & Graphs that we could create?
+
+A line graph where the x axis states the campaign timeline from Live through successful funding ,canceled and Failed and on the Y- axis the amount that was contributed to visualize how soon or how long it should take to be successful or be a failure.
+![image](https://user-images.githubusercontent.com/33403205/149434118-ff9b4c2a-677e-402e-abf8-452d34606af3.png)
